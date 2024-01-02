@@ -1,0 +1,25 @@
+/* UserHome.css */
+
+.user-home-container {
+    height: 100vh;
+    background-image: url('./new.jpg'); /* Set the path to your image */
+    background-size: cover;
+    background-position: center; /* Center the background image */
+    color: #000; /* Set text color to black for better contrast */
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .welcome-message {
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  
+  .content {
+    line-height: 1.6;
+  }
+  
+  .content p {
+    margin-bottom: 15px;
+  }
+  

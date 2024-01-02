@@ -1,0 +1,67 @@
+/* NavBar.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  padding: 10px 20px;
+  border-bottom: 2px solid #2980b9;
+}
+
+.navbar .left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.navbar li {
+  margin-right: 15px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #ecf0f1;
+}
+
+.navbar button {
+  background-color: transparent;
+  border: none;
+  color: #ecf0f1;
+  cursor: pointer;
+}
+
+/* Apply red color to the word "Wave" */
+.navbar h1 span {
+  color: #e74c3c; /* Red color */
+}
+
+/* Add additional styling as needed */
+
+.navbar a:hover {
+  color: #e74c3c; /* Change color on hover (red color) */
+}
+
+.navbar button {
+  background-color: transparent;
+  border: none;
+  color: #ecf0f1;
+  cursor: pointer;
+  transition: color 0.3s ease; /* Add transition for smooth color change */
+}
+
+.navbar button:hover {
+  color: #e74c3c; /* Change color on hover (red color) */
+}
